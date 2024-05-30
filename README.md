@@ -2,8 +2,10 @@
 
 ```mermaid
 graph LR
-  proactively_hunt_gigabrains -- ex:neo --> exp(EXP:fall_hacker_house) --> Sourcing
+  hunt_gigabrains -- ex:neo --> exp8(EXP:fall_hacker_house) --> Sourcing
   reactively_take_pitches -- ex:abstract --> investor_relations --> Sourcing
+  attract_gigabrains --> exp6(EXP:writing) --> Sourcing
+  hunt_liquid_arbs -- ex:libertus,dg --> exp7(EXP:deai_liquid_hidden_gems_analysis) --> Sourcing
   founder --> brilliance -- IQ+EQ --> Diligence
   founder --> hunger -- hrs/day spent on co? --> Diligence
   founder --> recruitability -- would we work for them? --> Diligence
@@ -31,6 +33,9 @@ style exp2 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5
 style exp3 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 style exp4 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 style exp5 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+style exp6 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+style exp7 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+style exp8 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 
 
 
