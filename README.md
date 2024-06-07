@@ -19,9 +19,11 @@ graph LR
   DeAI_SME -- we understand what they're building --> Winning
   eng_first --> exp9(EXP:market_map,clustering) --> Winning
   eng_first --> exp1(EXP:compute) --> Winning
+  eng_first --> eng_venture_partners --> Winning
   holistic_offering --> exp4(EXP:team_intensives) --> Portfolio_Support
   holistic_offering --> exp5(EXP:blood_work,hormones_testing) --> Portfolio_Support
   gateway_to_AI --> Portfolio_Support
+  eng_venture_partners --> Portfolio_Support
   fundraising+storytelling --> Portfolio_Support
   liquid_advisors --> talk_to_founder --> Exiting
   talk_to_founder --> Exiting
